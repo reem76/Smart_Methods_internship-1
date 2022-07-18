@@ -1,0 +1,15 @@
+#Test& Connect ESP32 to Arduino In windows:
+##Connect prosses:
+- download Arduino IDE
+- Installing the ESP32 Board in Arduino IDE:
+--a. In your Arduino IDE, go to File> Preferences
+--b. Enter this “https://raw.githubusercontent.com/espressif/arduino-esp32/gh-pages/package_esp32_index.json”into the “Additional Board Manager URLs” field than press OK.
+--c. Open the Boards Manager. Go to Tools > Board > Boards Manager.
+--d. Search for ESP32 and press install button, It should be installed after a few seconds.
+##Testing prosses:
+- Plug the ESP32 board to your computer.
+- open Arduino IDE.
+- Select your Board in Tools > Board menu.
+- Select the Port
+- Open File > Examples > ESP32 > Blink.
+- Press RUN
